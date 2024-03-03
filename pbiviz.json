@@ -1,0 +1,26 @@
+{
+    "visual": {
+        "name": "DotPlotChartByOfficeSolution",
+        "displayName": "Dot Plot Chart By Office Solution",
+        "guid": "DotPlotChartByOfficeSolution",
+        "visualClassName": "Visual",
+        "version": "1.0.0.0",
+        "description": "Dot Plot Chart By Office Solution",
+        "supportUrl": "https://innovationalofficesolution.com/power-bi-custom-charts",
+        "gitHubUrl": "https://github.com"
+    },
+    "apiVersion": "5.3.0",
+    "author": {
+        "name": "Narendar",
+        "email": "Narendar@innovationalofficesolution.com"
+    },
+    "assets": {
+        "icon": "assets/icon.png"
+    },
+    "externalJS": null,
+    "style": "style/visual.less",
+    "capabilities": "capabilities.json",
+    "dependencies": null,
+    "stringResources": [],
+    "version": "1.0.0.0"
+}

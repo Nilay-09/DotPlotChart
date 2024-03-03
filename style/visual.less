@@ -1,0 +1,178 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+
+// * {
+//     // outline: 2px solid red;
+// }
+
+.wrapper {
+    display: inline-flex;
+    gap: 20px;
+    justify-content: start;
+    align-items: center;
+}
+.legend {
+    display: inline-flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.range-label {
+    display: inline-block;
+    padding: 2px 4px;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.range-input {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    cursor: pointer;
+    outline: none;
+    overflow: hidden;
+    border-radius: 16px;
+}
+
+.range-input::-webkit-slider-runnable-track {
+    height: 15px;
+    background: #ccc;
+    border-radius: 16px;
+}
+
+.range-input::-moz-range-track {
+    height: 15px;
+    background: #ccc;
+    border-radius: 16px;
+}
+
+.range-input::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    height: 15px;
+    width: 15px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 2px solid #3498db;
+    box-shadow: -407px 0 0 400px #3498db;
+}
+
+.range-input::-moz-range-thumb {
+    height: 15px;
+    width: 15px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 1px solid #3498db;
+    box-shadow: -407px 0 0 400px #3498db;
+}
+
+.licence-img {
+    width: 40px;
+    height: 30px;
+    background-image: url('../assets/OC.png');
+    background-position: center;
+    background-size: cover;
+    margin-left: 10px;
+    display: inline-block;
+    position: relative;
+}
+
+.x-holder,
+.y-holder,
+.z-holder {
+    display: inline-flex;
+    justify-content: flex-end;
+    // background: #000;
+}
+
+.x-holder,
+.y-holder {
+    margin-right: 20px;
+}
+
+.selectorDiv {
+    display: flex;
+    height: fit-content;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.selectorWrapper {
+    display: flex;
+    height: fit-content;
+    justify-content: space-between;
+    padding-inline: 10px;
+    align-items: center;
+}
+
+.legend {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* styles.css */
+
+/* Style for X-axis label */
+.x-axis-label,
+.y-axis-label {
+    font-size: 18px;
+    color: #555;
+    margin-right: 10px;
+}
+
+/* Style for X-axis dropdown container */
+.x-holder,
+.y-holder {
+    display: flex;
+    align-items: center;
+}
+
+/* Style for X-axis dropdown */
+.x-holder select,
+.y-holder select {
+    // appearance: none;
+    outline: none;
+    width: 120px;
+    padding: 10px;
+    // margin-right: 10px;
+    font-size: 14px;
+    border: 1px solid #3498db;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: border-color 0.3s ease;
+}
+
+.x-holder select:hover,
+.y-holder select:hover {
+    border-color: #95d1f9;
+}
+
+.x-holder select:focus,
+.y-holder select:focus {
+    border-color: #a9dafb;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.7);
+}
+
+.x-holder select option,
+.y-holder select option {
+    background-color: #ffffffa8;
+    /* Background color of options */
+    color: #333;
+    font-size: 14px;
+
+}
+
+.x-holder select option:hover,
+.y-holder select option:hover {
+    background-color: #f2f2f2;
+    color: #333;
+}
